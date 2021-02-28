@@ -1,9 +1,16 @@
 RabbitMQ Consumer Handler Bundle
 ================================
 
+
+**This package is a fork of [`vasek-purchart/rabbit-mq-consumer-handler-bundle`](https://github.com/VasekPurchart/Rabbit-Mq-Consumer-Handler-Bundle) maintained for newer PHP and Symfony versions.**
+
+---
+
+
+
 **Handle messages in RabbitMQ consumers in a safe and effective way**
 
-> **Note:** This bundle expects you are using [RabbitMqBundle](https://github.com/php-amqplib/RabbitMqBundle/)
+> **Note:** This bundle expects you are using [RabbitMqBundle](https://github.com/eMAGTechLabs/RabbitMqBundle)
 
 Message queue consumers require usually long running processes, which should process many different messages, before they are terminated. In an ideal scenario, they will be running indefinitely. But since we are not living in an ideal world, errors will inevitably occur. These can be typically:
 
@@ -223,10 +230,10 @@ rabbit_mq_consumer_handler:
 Installation
 ------------
 
-Install package [`vasek-purchart/rabbit-mq-consumer-handler-bundle`](https://packagist.org/packages/vasek-purchart/rabbit-mq-consumer-handler-bundle) with [Composer](https://getcomposer.org/):
+Install package [`mhujer/rabbit-mq-consumer-handler-bundle`](https://packagist.org/packages/mhujer/rabbit-mq-consumer-handler-bundle) with [Composer](https://getcomposer.org/):
 
 ```bash
-composer require vasek-purchart/rabbit-mq-consumer-handler-bundle
+composer require mhujer/rabbit-mq-consumer-handler-bundle
 ```
 
 Register the bundle in your application kernel:

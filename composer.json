@@ -1,5 +1,5 @@
 {
-	"name": "vasek-purchart/rabbit-mq-consumer-handler-bundle",
+	"name": "mhujer/rabbit-mq-consumer-handler-bundle",
 	"description": "Handle messages in RabbitMQ consumers in a safe and effective way",
 	"license": "MIT",
 	"authors": [
